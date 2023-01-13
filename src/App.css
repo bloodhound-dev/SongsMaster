@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.App {
+text-decoration: none;
+  text-align: center;
+  /* background-color:rgb(79,166,236);
+  background-color: ; */
+  background-image: linear-gradient(to bottom right, #3f87a6,#f69d3c);
+  height: 100%;
+
+
+}
+.card-detail{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin:40px;
+  margin-left: 30px;
+}
+.navElement{
+  margin-right: 15px;  
+  display: flex;
+  justify-content: flex-end;
+}
+.Navbar{
+ display: flex;
+ justify-content: flex-end;
+ background: linear-gradient(to right,#3f87a6, #f69d3c);
+  /* text-decoration:dashed; */
+  list-style: none;
+  padding: 1em;
+}
+.Font-p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 3em;
+  margin-top: 15px;
+  
+}
+ .Navbar1{
+  text-decoration: none;
+}
+.card{
+  display: flex;
+  margin: 15px;
+  margin-left: 300px;
+  width: 50%;
+  border: 2px solid white;
+  border-top-left-radius: 30px ;
+  border-bottom-right-radius: 30px;
+}
+.card-img{
+margin: 10px;
+  height: 100%;
+  width: 100%;
+ 
+}
+.card-img img{
+  
+  height: 50%;
+  width: 50%;
+}
+/*.mainCard{
+  display: flex;
+  width: 50%;
+} */
